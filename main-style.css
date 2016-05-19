@@ -1,0 +1,107 @@
+/*---------------------------------------------body------------------------------------------------------------------*/
+body {
+
+    text-align: center;
+    color: white;
+    font-size: 28px;
+
+}
+
+/*---------------------------------------------header------------------------------------------------------------------*/
+header {
+    padding-top: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+
+header img {
+    width: 80vw;
+    height: 80vh;
+
+}
+
+/*---------------------------------------------zajawka---------------------------------------------------------------*/
+.zajawka {
+    background-color: #B3D34D;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/*------------------------------------------zapisz-sie---------------------------------------------------------------*/
+.zapisz-sie {
+    background-color: coral;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/*----------------------------------------------nav------------------------------------------------------------------*/
+.nav {
+    width: 100vw;
+    height: 5vh;
+    background-color: lightsteelblue;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #B3D34D;
+    color: #FFFFFF;
+}
+
+a:active {
+    background-color: #FABC2C;
+}
+
+/*----------------------------------------------about----------------------------------------------------------------*/
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightsalmon;
+}
+
+/*--------------------------------------------services---------------------------------------------------------------*/
+.services {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+
+/*--------------------------------------------HowWeWork--------------------------------------------------------------*/
+.how-we-work {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkslategray;
+}
+
+/*-------------------------------------------contact-----------------------------------------------------------------*/
+.contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkturquoise;
+}
+
+/*--------------------------------------------foooter----------------------------------------------------------------*/
+.footer {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+
+}
+
+
