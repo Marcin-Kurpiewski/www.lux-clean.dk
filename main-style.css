@@ -4,11 +4,15 @@ body {
     text-align: center;
     color: white;
     font-size: 28px;
+    position: absolute;
+    z-index: 10;
+
 
 }
 
 /*---------------------------------------------header------------------------------------------------------------------*/
 header {
+
     padding-top: 50px;
     width: 100vw;
     height: 100vh;
@@ -19,12 +23,21 @@ header img {
     height: 80vh;
 
 }
+.header{
+    z-index:20;
+    position: relative;
+    background-color: blueviolet;
+
+}
 
 /*---------------------------------------------zajawka---------------------------------------------------------------*/
 .zajawka {
     background-color: #B3D34D;
     width: 100vw;
     height: 100vh;
+    z-index:30;
+    position: relative;
+
 
 }
 
@@ -33,6 +46,8 @@ header img {
     background-color: coral;
     width: 100vw;
     height: 100vh;
+    z-index:40;
+    position: relative;
 
 }
 
@@ -42,6 +57,9 @@ header img {
     height: 5vh;
     background-color: lightsteelblue;
     padding: 20px;
+    position: fixed;
+    z-index: 10;
+    top:0;
 }
 
 nav a {
@@ -101,7 +119,6 @@ a:active {
     width: 100vw;
     height: 5vh;
     background-color: black;
-
 }
 
 
