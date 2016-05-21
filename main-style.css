@@ -1,30 +1,32 @@
 /*---------------------------------------------body------------------------------------------------------------------*/
 body {
-
+    margin: auto 0;
     text-align: center;
     color: white;
     font-size: 28px;
     position: absolute;
     z-index: 10;
-
+    width: 100%;
 
 }
 
 /*---------------------------------------------header------------------------------------------------------------------*/
 header {
 
-    padding-top: 50px;
-    width: 100vw;
     height: 100vh;
+    top: -20px;
 }
 
 header img {
-    width: 80vw;
-    height: 80vh;
+    padding-top: 100px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
 
 }
-.header{
-    z-index:20;
+
+.header {
+    z-index: 20;
     position: relative;
     background-color: blueviolet;
 
@@ -33,33 +35,30 @@ header img {
 /*---------------------------------------------zajawka---------------------------------------------------------------*/
 .zajawka {
     background-color: #B3D34D;
-    width: 100vw;
     height: 100vh;
-    z-index:30;
+    z-index: 30;
     position: relative;
-
 
 }
 
 /*------------------------------------------zapisz-sie---------------------------------------------------------------*/
 .zapisz-sie {
     background-color: coral;
-    width: 100vw;
     height: 100vh;
-    z-index:40;
+    z-index: 40;
     position: relative;
 
 }
 
 /*----------------------------------------------nav------------------------------------------------------------------*/
+
 .nav {
-    width: 100vw;
-    height: 5vh;
+    width: 100%;
+    height: 5%;
     background-color: lightsteelblue;
-    padding: 20px;
     position: fixed;
     z-index: 10;
-    top:0;
+    top: 0;
 }
 
 nav a {
@@ -88,35 +87,35 @@ a:active {
 /*----------------------------------------------about----------------------------------------------------------------*/
 
 .about {
-    width: 100vw;
+
     height: 100vh;
     background-color: lightsalmon;
 }
 
 /*--------------------------------------------services---------------------------------------------------------------*/
 .services {
-    width: 100vw;
+
     height: 100vh;
     background-color: lightskyblue;
 }
 
 /*--------------------------------------------HowWeWork--------------------------------------------------------------*/
 .how-we-work {
-    width: 100vw;
+
     height: 100vh;
     background-color: darkslategray;
 }
 
 /*-------------------------------------------contact-----------------------------------------------------------------*/
 .contact {
-    width: 100vw;
+
     height: 100vh;
     background-color: darkturquoise;
 }
 
 /*--------------------------------------------foooter----------------------------------------------------------------*/
 .footer {
-    width: 100vw;
+
     height: 5vh;
     background-color: black;
 }
