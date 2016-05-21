@@ -1,6 +1,6 @@
 /*---------------------------------------------body------------------------------------------------------------------*/
 body {
-    margin: auto 0;
+    margin: auto;
     text-align: center;
     color: white;
     font-size: 28px;
@@ -11,12 +11,6 @@ body {
 }
 
 /*---------------------------------------------header------------------------------------------------------------------*/
-header {
-
-    height: 100vh;
-    top: -20px;
-}
-
 header img {
     padding-top: 100px;
     width: 500px;
@@ -26,11 +20,13 @@ header img {
 }
 
 .header {
+    height: 100vh;
     z-index: 20;
     position: relative;
     background-color: blueviolet;
 
 }
+
 
 /*---------------------------------------------zajawka---------------------------------------------------------------*/
 .zajawka {
