@@ -1,62 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Lux-clean.dk</title>
-    <link rel="stylesheet" href="reset-style.css">
-    <link rel="stylesheet" href="main-style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lux-clean.dk the best cleaning company</title>
+<link rel="stylesheet" href="assets/lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+<link rel="stylesheet" href="assets/main-style.css">
 
 <body>
-<header class="header">
-    <h1>Lux-clean.dk</h1>
-    <img src="images/logo-lux-clean.svg" alt="Graphic logo Lux-clean.dk" title="Lux-clean.dk">
-    <a href="#">See more </a>
+
+<header id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1"
+                                    aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#home">
+                                <h1>Lux-clean.dk</h1>
+                                <img class="logo" alt="Brand" src="images/Logo-lux-clean.dk.png">
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#about">about</a></li>
+                                <li><a href="#offer">offer</a></li>
+                                <li><a href="#services">services</a></li>
+                                <li><a href="#how-we-work">how we work</a></li>
+                                <li><a href="#contact">contact</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
 </header>
-<section id="zajawka" class="zajawka"><h2>Advertise your business.</h2>zajawka, kolorowa grafika, hasla itp.
-    <a href="#">See more </a>
-</section>
-<section id="zapisz-sie" class="zapisz-sie"><h2>The form of the promotion</h2>
-    zapisz sie na promocje, formularz email , kilka slow o promocji
-    <a href="#">See more </a>
-    <form>
-        <input type="email" name="email" title="email" placeholder="Write your e-mail" required>
-        <input type="submit" value="Send">
-    </form>
-</section>
-<nav class="nav" id="nav">
-    <a href="#about">About us</a>
-    <a href="#services">Services</a>
-    <a href="#how-we-work">HWW</a>
-    <a href="#contact">Contact</a>
-</nav>
-<section id="about" class="about"><h2>Who we are</h2>sekcja about</section>
-<section id="services" class="services"><h2>Services</h2>
-    <div class="icon">
-        <img src="images/icon/backet-vash.svg" alt="backet-icon" title="Mopping Floors">
-        <img src="images/icon/vash-machine.svg" alt="vash-machine-icon" title="Washing">
-        <img src="images/icon/gloves.svg" alt="gloves-icon" title="Hygiene">
-        <img src="images/icon/brum.svg" alt="brum-icon" title="Sweeping">
-        <img src="images/icon/liquid.svg" alt="liquid-icon" title="Best Liquids">
-        <img src="images/icon/mini-brum.svg" alt="mini-brum-icon" title="Sweeping">
-        <img src="images/icon/own.svg" alt="own-icon" title="Cleaning Oven">
-        <img src="images/icon/backet.svg" alt="bucket-icon" title="Wash">
-        <img src="images/icon/spray.svg" alt="spray-icon" title="Polish Glass">
-        <img src="images/icon/tool1.svg" alt="tools-icon" title="Pip">
-        <img src="images/icon/towel.svg" alt="towel-icon" title="Stacking Clothes">
-        <img src="images/icon/trash.svg" alt="trash-icon" title="Throwing Garbage">
-        <img src="images/icon/vacum.svg" alt="vacum-icon" title="Vacuuming ">
-        <img src="images/icon/tool2.svg" alt="tools-icon" title="Window Cleaning">
-        <img src="images/icon/backet.svg" alt="bucket-icon" title="Wash">
-        <img src="" alt="" title=""> <!-- missing icon windows cleaning and ironing -->
-        <img src="" alt="" title="">
+<section id="photo-slider" class="photo-slider">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="photo-slider-h2">Photo-slider</h2>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="center-block" src="images/img/pexels-photo-94578.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">Meeting place is always prepared for the guests.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="center-block" src="images/img/pexels-photo-145512.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">Bathrooms clean and fragrant.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="center-block" src="images/img/pexels-photo-282892.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">Hygiene and cleanliness in the first place.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="center-block" src="images/img/StockSnap_4TV64XPW67.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">Always a good view from the window.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="center-block" src="images/img/154H.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">Washed, ironed and stacked waiting for you in the closet.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="center-block" src="images/img/StockSnap_J4C1WJDMMU.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">Cleaned and dry floor.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="center-block" src="images/img/pexels-photo-27704.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">Polished and shiny floors invites to enter.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="center-block" src="images/img/StockSnap_06FF138848%20(1).jpg" alt="...">
+                        <div class="carousel-caption">
+                            <p class="corousel-titel">No more dirty dishes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
     </div>
 </section>
-<section id="how-we-work" class="how-we-work"><h2>How we work</h2> sekcja how we work</section>
-<section id="contact" class="contact"><h2>Contact</h2>
-    formular, phone number etc.
+<section id="about" class="about">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="jumbotron">
+                <h2 class="page-header">About Company</h2>
+                <p class="jumbo-text">cleaning company provides a full range of cleaning services for both business and individual offering
+                    comprehensive maintenance of the purity of the office, retail, utilities and any other objects.</p>
+                <p class="jumbo-text"> In our offer you will also find Professional steam cleaning, washing and cleaning of carpets, upholstery and
+                    car and window cleaning and websites. We provide and deliver hygiene and proper cleaning of renowned brands well-known
+                    manufacturers. We use effective and flexible solutions based on individual needs and wishes of the customer.</p>
+                <p  class="jumbo-text">Guarantee of our quality control system is also housekeeping staff. We provide professional support and
+                service. We guarantee professional and timely execution of all kinds of cleaning services, as well as a range of specialist
+                services</p>
+                <p><a class="btn btn-primary btn-lg btn-jumbo" href="#offer" role="button">Read more information</a>
+                </p>
+                <p>
+                    <!--<a class="btn btn-primary btn-lg" href="#offer" role="button">-->
+                        <!--<span class="glyphicon glyphicon-chevron-down row-btn row-btn1"></span>-->
+                        <!--<span class="glyphicon glyphicon-chevron-down row-btn row-btn2"></span>-->
+                        <!--<span class="glyphicon glyphicon-chevron-down row-btn row-btn3"></span>-->
+                    <!--</a>-->
+                </p>
+            </div>
+        </div>
+    </div>
 </section>
-<footer class="footer">footer</footer>
-<script src="jquery-2.2.4.js"></script>
-<script src="script.js"></script>
+<section class="offer well" id="offer">
+    <div class="row ">
+        <div class="col-xs-12">
+            <h2 class="page-header">Offer</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">House and apartment</h3>
+                </div>
+                <div class="panel-body">
+                    <img src="images/home-cleaningjpg.jpg" class="images-offer img-rounded img-responsive center-block" alt="...">
+                    <div class="well well-custom">
+                        <p>Aliquam erat ac ipsum. Integer aliquam purus.</p>
+                    </div>
+                </div>
+                <div class="panel-footer panel-footer-custom">
+                    <button type="button" class="btn btn-default btn-lg offer-btn" data-toggle="modal" data-target="#myModal">
+                        View details
+                    </button>
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">House and apartment specifications</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Kitchen,</li>
+                                        <li class="list-group-item">Rooms and bedrooms,</li>
+                                        <li class="list-group-item">Bathroom and toilet,</li>
+                                        <li class="list-group-item">Dusting,</li>
+                                        <li class="list-group-item">Vacuuuming,</li>
+                                        <li class="list-group-item">Washing,</li>
+                                        <li class="list-group-item">Ironing.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn-lg center-block" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Office</h3>
+                </div>
+                <div class="panel-body">
+                    <img src="images/office-cleaning.jpg" class="images-offer img-rounded img-responsive center-block" alt="...">
+                    <div class="well well-custom">
+                        <p>Aliquam erat ac ipsum. Integer aliquam purus.</p>
+                    </div>
+                </div>
+                <div class="panel-footer panel-footer-custom">
+                    <button type="button" class="btn btn-default btn-lg offer-btn" data-toggle="modal" data-target="#myModal1">
+                        View details
+                    </button>
+                    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel1">Offices specifications</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Kitchen and equipment,</li>
+                                        <li class="list-group-item">Office,</li>
+                                        <li class="list-group-item">Conferance room,</li>
+                                        <li class="list-group-item">Desk and chairs,</li>
+                                        <li class="list-group-item">Vacuming,</li>
+                                        <li class="list-group-item">Washing,</li>
+                                        <li class="list-group-item">Dusting,</li>
+                                        <li class="list-group-item">Entrance hall and elevator.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn-lg center-block" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Windows & Doors</h3>
+                </div>
+                <div class="panel-body">
+                    <img src="images/window-cleaner%202.jpg" class="images-offer img-rounded img-responsive center-block" alt="...">
+                    <div class="well well-custom">
+                        <p>Aliquam erat ac ipsum. Integer aliquam purus.</p>
+                    </div>
+                </div>
+                <div class="panel-footer panel-footer-custom">
+                    <button type="button" class="btn btn-default btn-lg  offer-btn" data-toggle="modal" data-target="#myModal1">
+                        View details
+                    </button>
+                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel2">Window & Dors specifications</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Inside,</li>
+                                        <li class="list-group-item">Outside,</li>
+                                        <li class="list-group-item">Frames,</li>
+                                        <li class="list-group-item">Polish,</li>
+                                        <li class="list-group-item">Roof windows,</li>
+                                        <li class="list-group-item">Handles and equipment.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn-lg center-block" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Extra</h3>
+                </div>
+                <div class="panel-body">
+                    <img src="images/loundry.jpg" class="images-offer img-rounded img-responsive center-block" alt="...">
+                    <div class="well well-custom">
+                        <p>Aliquam erat ac ipsum. Integer aliquam purus.</p>
+                    </div>
+                </div>
+                <div class="panel-footer panel-footer-custom">
+                    <button type="button" class="btn btn-default  btn-lg  offer-btn" data-toggle="modal" data-target="#myModal3">
+                        View details
+                    </button>
+                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel3">Extra services specifications</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Washing couches and armchairs,</li>
+                                        <li class="list-group-item">Washing carpets,</li>
+                                        <li class="list-group-item">Cleaning frige and oven,</li>
+                                        <li class="list-group-item">Cleaning up after event,</li>
+                                        <li class="list-group-item">Cleaning basements and garages,</li>
+                                        <li class="list-group-item">and more.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn-lg center-block" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="services" class="services well">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="page-header">Services</h2>
+        </div>
+    </div>
+    <div class="row service_box">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 well">
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/vacuum-cleaner.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Vacuming</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/sweep.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Sweeping</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/mop.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Washing floors</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 well">
+            <div class="media  list-group-item list-group-item-warning">
+                <div class="pull-left ">
+                    <img src="images/icons/dust.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Dusting</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/garbage.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Remove garbage</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/bucket.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Cleaning</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 well">
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/washing-machine.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Wash clothes</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/shirt.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Ironing</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/toilet.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Toilet cleaning</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 well">
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/detergent.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Strong detergent</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/gloves.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Hygiene care</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/spray.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Watering plants</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 well">
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/window.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Windows Cleaning</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/liquid-soap.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>The best liquid's</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/brush.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Scrubing</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 well">
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/wipe.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Polish</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/dish.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>Dishes</h3>
+                </div>
+            </div>
+            <div class="media list-group-item list-group-item-warning">
+                <div class="pull-left">
+                    <img src="images/icons/house.svg" alt="" class="images-services">
+                </div>
+                <div class="media-body">
+                    <h3>And more cleaning services</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section id="how-we-work" class="how-we-work well">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="page-header">How we work</h2>
+            <img src="images/how-we-work1.png" alt="" class="img-responsive img-rounded img-hww center-block">
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact well">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Contact</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
+            <ul class="list-group contact-list">
+                <li class="list-group-item list-group-item-info">Lux-clean.dk</li>
+                <li class="list-group-item list-group-item-info">tlf. 50 40 30 20</li>
+                <li class="list-group-item list-group-item-info">fax. 55 54 53 52</li>
+                <li class="list-group-item list-group-item-info">Copenhagen</li>
+                <li class="list-group-item list-group-item-info">2400 Nord Vest</li>
+                <li class="list-group-item list-group-item-info">luxcleandk@gmail.com</li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72008.8441275095!2d12.562039065400269!3d55.66679394914005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533c5c803d23%3A0x4dd7edde69467b8!2sKopenhaga%2C+Dania!5e0!3m2!1spl!2spl!4v1486975138848"
+                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<footer class="footer well">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+            <ul class="list-group footer-list">
+                <li class="list-group-item">Created by <a href="http://mkurpiewski.com">mkurpiewski.com</a></li>
+                <li class="list-group-item">Photo stock and icon's :</li>
+                <li class="list-group-item"><a href="https://stocksnap.io">stocksnap</a></li>
+                <li class="list-group-item"><a href="http://www.gratisography.com">gratisography</a></li>
+                <li class="list-group-item"><a href="https://www.pexels.com">pexels</a></li>
+                <li class="list-group-item"><a href="http://www.flaticon.com/packs/cleaning-2#">flaticon by  Eucalyp</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<script src="assets/lib/jquery-3.1.1.js"></script>
+<script src="assets/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="assets/scripts.js"></script>
 </body>
 </html>

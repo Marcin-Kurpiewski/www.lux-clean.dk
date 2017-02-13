@@ -1,0 +1,207 @@
+
+/*---------------------------------------------body------------------------------------------------------------------*/
+body {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    margin: 0 auto;
+    background-color: #f5ffec;
+    padding-top: 50px;
+    max-width: 1920px;
+}
+
+h2{
+    font-size: 38px;
+    line-height: 3;
+}
+*{
+    letter-spacing: 1px;
+    line-height: 1.8;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.page-header {
+     padding-bottom: 0;
+    margin: 40px 0 40px;
+    border-bottom: 10px solid #fff;
+}
+/*---------------------------------------------header------------------------------------------------------------------*/
+
+
+h1{
+    display: none;
+}
+.header {
+    width: 100%;
+}
+
+.navbar-nav{
+    float: right;
+    margin-right: -15px;
+}
+.navbar-brand{
+    padding: 0;
+}
+.logo{
+    margin-left: 15px;
+}
+
+
+/*---------------------------------------------photo-slider---------------------------------------------------------------*/
+.photo-slider-h2{
+    display: none;
+}
+
+.carousel{
+    max-height: 768px;
+    z-index: 9;
+
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+
+    width: 100%;
+    max-height: 768px;
+    overflow: hidden;
+}
+.corousel-titel{
+    font-size: 28px;
+}
+
+/*-----------jumbotron---------------*/
+
+.btn-jumbo{
+    margin:3% 0 2% 0;
+}
+.jumbo-text{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+.jumbo-text:first-letter{
+    /*font-size: 35px;*/
+    text-transform: uppercase;
+
+}
+/*----------------about--------------*/
+.row-btn{
+    margin: 0 1%;
+    animation-name: row-move;
+    animation-duration: .8s;
+    animation-iteration-count: 50;
+    font-size: 22px;
+}
+.row-btn2{
+    animation-delay: -.1s;
+}
+.row-btn3{
+    animation-delay: .2s;
+}
+@keyframes row-move {
+    0% {position:relative; top:-9px;}
+    10% {position:relative; top:-7px;}
+    20% {position:relative; top:-5px;}
+    30% {position:relative; top:-3px;}
+    40% {position:relative; top:-1px;}
+    50% {position:relative; top:1px;}
+    60% {position:relative; top:3px;}
+    70% {position:relative; top:4px;}
+    80% {position:relative; top:7px;}
+    90% {position:relative; top:9px;}
+    100% {position:relative; top:10px;}
+}
+
+/*-----section offer-------*/
+.images-offer {
+    margin-top: 6%;
+    margin-bottom: 18%;
+    max-width: 300px;
+}
+.offer-btn{
+margin: 5% 0;
+}
+.offer-btn:hover{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.well-custom{
+    box-shadow: 1px 1px 5px #000;
+}
+.well-custom{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.images-offer{
+    transition: all .5s ease-in-out;
+}
+.images-offer:hover, .images-offer:focus{
+transform: scale(1.1);
+}
+
+.panel-title{
+    font-size: 28px;
+    margin: 5% 0;
+}
+.panel-footer-custom{
+    background-color: #337ab7;
+}
+.modal-title{
+    font-size: 30px;
+}
+.list-group-item:hover, .nav li a:hover{
+
+    background-color: #337ab7;
+    color:#fff;
+}
+
+/*-------------services---------------*/
+.images-services{
+    width: 80px;
+    color:#337ab7;
+}
+
+.service_box > .well{
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/*----------------how-we-work------------------*/
+
+.how-we-work{
+    background-color: #eee;
+
+}
+.img-hww{
+    max-height: 500px;
+    max-width: 1024px;
+}
+
+/*------------------contact----------------------------*/
+.contact-list{
+    border-radius: 50px;
+}
+.contact-list:hover{
+    background-color: #337ab7;
+    color:#fff;
+}
+
+/*-------------------------footer---------------------*/
+.footer-list{
+    color:#23527c;
+    font-size: 16px;
+}
+.footer-list > .list-group-item:hover{
+    background-color: transparent;
+    color:#23527c;
+}
+@media screen and (max-width: 768px){
+    .navbar-nav{
+        float: none;
+        margin-right: -15px;
+    }
+
+}
